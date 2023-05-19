@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fotos.ui.MainUIController">
+   <center>
+      <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="39.0" layoutY="348.0" mnemonicParsing="false" text="listar" />
+                  <Button layoutX="512.0" layoutY="348.0" mnemonicParsing="false" text="borrar" />
+                  <Button layoutX="39.0" layoutY="49.0" mnemonicParsing="false" text="crear" />
+                  <Button layoutX="512.0" layoutY="49.0" mnemonicParsing="false" text="cambiar" />
+                  <TextArea fx:id="fotosArea" layoutX="200.0" layoutY="74.0" prefHeight="200.0" prefWidth="200.0" />
+                  <TextField layoutX="226.0" layoutY="336.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </center>
+</BorderPane>
